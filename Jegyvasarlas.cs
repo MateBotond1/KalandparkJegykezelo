@@ -22,7 +22,7 @@ namespace KalandparkJegykezelo
         }
         public override string ToString()
         {
-            return $"{LatogatoNev}: {FelnottJegyek} felnőtt, {GyerekJegyek} gyerek jegy - Fizetendő: {FizetendoOsszeg} Ft";
+            return $"{LatogatoNev}: {FelnottJegyek} felnőtt, {GyerekJegyek} gyerek jegy - Fizetendő: {FizetendoOsszeg()} Ft";
         }
     }
 }
